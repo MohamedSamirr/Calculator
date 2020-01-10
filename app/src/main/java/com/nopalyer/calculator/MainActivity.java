@@ -1,18 +1,16 @@
 package com.nopalyer.calculator;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-//cc
-import com.faendir.rhino_android.RhinoAndroidHelper;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ast.Scope;
+
+//ccb
 
 public class MainActivity extends AppCompatActivity {
 
