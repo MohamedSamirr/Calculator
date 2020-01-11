@@ -32,7 +32,7 @@ Find the APK and the code of this project on [Github Link] (https://github.com/M
 
 ## Acknowledgments
 
-* [Setting up Andriod Studio] (https://blackboard.aucegypt.edu/bbcswebdav/pid-1501243-dt-content-rid-11044589_1/courses/CSCE493001_2020Wi/Android_Studio_SetUp.pdf) 
+* [Setting up Andriod Studio](https://blackboard.aucegypt.edu/bbcswebdav/pid-1501243-dt-content-rid-11044589_1/courses/CSCE493001_2020Wi/Android_Studio_SetUp.pdf) 
 
 * [Creating AVD](https://blackboard.aucegypt.edu/bbcswebdav/pid-1501243-dt-content-rid-11044590_1/courses/CSCE493001_2020Wi/AVD_CFG.pdf)
 
