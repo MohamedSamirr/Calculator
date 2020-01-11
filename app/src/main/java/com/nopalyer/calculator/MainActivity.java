@@ -7,11 +7,6 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Scriptable;
-
-//ccb
-
 public class MainActivity extends AppCompatActivity {
 
 
@@ -22,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Model model = new Model();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //we get the ids from the layout
@@ -219,29 +215,18 @@ public class MainActivity extends AppCompatActivity {
         btnEqual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 process = tvInput.getText().toString();
 
-                process = process.replaceAll("×","*");
-                process = process.replaceAll("%","/100");
-                process = process.replaceAll("÷","/");
 
-                Context rhino = Context.enter();
+                //here
+                String output;
+                output = tvOutput.getText().toString();
+                String result = model.tf(process, output);
+                tvOutput.setText(result);
 
-                rhino.setOptimizationLevel(-1);
-
-                String finalResult = "";
-
-                try {
-                    Scriptable scriptable = rhino.initStandardObjects();
-                    finalResult = rhino.evaluateString(scriptable,process,"javascript",1,null).toString();
-                }catch (Exception e){
-                    finalResult="0";
-                }
-
-                tvOutput.setText(finalResult);
             }
-        });
-
-
+            }
+        );
     }
 }
