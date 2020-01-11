@@ -32,9 +32,12 @@ Find the APK and the code of this project on [Github Link] (https://github.com/M
 
 ## Acknowledgments
 
-*[Setting up Andriod Studio] (https://blackboard.aucegypt.edu/bbcswebdav/pid-1501243-dt-content-rid-11044589_1/courses/CSCE493001_2020Wi/Android_Studio_SetUp.pdf) 
-*[Creating AVD](https://blackboard.aucegypt.edu/bbcswebdav/pid-1501243-dt-content-rid-11044590_1/courses/CSCE493001_2020Wi/AVD_CFG.pdf)
-*[Employing Basic Widgets](https://link.springer.com/chapter/10.1007/978-1-4302-3985-7_9)
-*[Linda Toutorial](https://www.lynda.com/Android-tutorials/Learning-Android-App-Development-Design-User-Interface/518054-2.html?srchtrk=index%3a2%0alinktypeid%3a2%0aq%3aandroid+UI%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2)
+* [Setting up Andriod Studio] (https://blackboard.aucegypt.edu/bbcswebdav/pid-1501243-dt-content-rid-11044589_1/courses/CSCE493001_2020Wi/Android_Studio_SetUp.pdf) 
+
+* [Creating AVD](https://blackboard.aucegypt.edu/bbcswebdav/pid-1501243-dt-content-rid-11044590_1/courses/CSCE493001_2020Wi/AVD_CFG.pdf)
+
+* [Employing Basic Widgets](https://link.springer.com/chapter/10.1007/978-1-4302-3985-7_9)
+
+* [Linda Toutorial](https://www.lynda.com/Android-tutorials/Learning-Android-App-Development-Design-User-Interface/518054-2.html?srchtrk=index%3a2%0alinktypeid%3a2%0aq%3aandroid+UI%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2)
 
 
